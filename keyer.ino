@@ -91,9 +91,10 @@
   a positive keying line (as most modern ones do) then it can feed the
   base of an NPN transistor through a current limiting resistor and
   the collector used to key the transmitter.  Most modern transmitters
-  with a postive key line have modest voltage and current requirements
-  on that line, and a 10K Ohm resistor to the base of a general
-  purpose NPN transistor such as a BC547 will often do.  Check to see.
+  with a positive key line have modest voltage and current
+  requirements on that line, and a 10K Ohm resistor to the base of a
+  general purpose NPN transistor such as a BC547 will often do.  Check
+  to see.
 
   Analogue pin A3 is used for speed control.  It should be connected
   to the wiper of a potentiometer which has 0v and the working

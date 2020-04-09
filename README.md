@@ -73,7 +73,7 @@ on the Arduino Uno) (key down): if the transmitter has a positive
 keying line (as most modern ones do) then pin 8 can feed the base of
 an NPN transistor through a current limiting resistor and the
 collector used to key the transmitter.  Most modern transmitters with
-a postive key line have modest voltage and current requirements on
+a positive key line have modest voltage and current requirements on
 that line, and a 10K Ohm resistor to the base of a general purpose NPN
 transistor such as a BC547 will often do.  Check to see.
 
