@@ -88,7 +88,7 @@
   Morse output is on pin 8, which is configured in this program as a
   low impedance source with 0v (key up) or the working positive
   voltage (+5v on the Arduino Uno) (key down): if the transmitter has
-  a postive keying line (as most modern ones do) then it can feed the
+  a positive keying line (as most modern ones do) then it can feed the
   base of an NPN transistor through a current limiting resistor and
   the collector used to key the transmitter.  Most modern transmitters
   with a postive key line have modest voltage and current requirements
