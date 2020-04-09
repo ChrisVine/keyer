@@ -84,15 +84,16 @@
  
   The dot paddle should be connected to pin 4 of the Arduino and the
   dash paddle to pin 5, with the common line connected to ground.
+
   Morse output is on pin 8, which is configured in this program as a
-  low impedance source with 0v (key up) or +5v (key down): if the
-  transmitter has a postive keying line (as most modern ones do) then
-  it can feed the base of an NPN transistor through a current limiting
-  resistor and the collector used to key the transmitter.  Most modern
-  transmitters with a postive key line have modest voltage and current
-  requirements on that line, and a 10K Ohm resistor to the base of a
-  general purpose NPN transistor such as a BC547 will often do.  Check
-  to see.
+  low impedance source with 0v (key up) or the working positive
+  voltage (+5v on the Arduino Uno) (key down): if the transmitter has
+  a postive keying line (as most modern ones do) then it can feed the
+  base of an NPN transistor through a current limiting resistor and
+  the collector used to key the transmitter.  Most modern transmitters
+  with a postive key line have modest voltage and current requirements
+  on that line, and a 10K Ohm resistor to the base of a general
+  purpose NPN transistor such as a BC547 will often do.  Check to see.
 
   Analogue pin A3 is used for speed control.  It should be connected
   to the wiper of a potentiometer which has 0v and the working
